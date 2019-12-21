@@ -1,0 +1,134 @@
+
+
+body{
+    padding: 0 0;
+    margin:0 auto;
+   background-color:rgb(117 ,117, 117)
+}
+
+.navbar{
+    background-color: bisque;
+    border-bottom: 2px solid #000; 
+    padding-right:20px;
+    height:auto;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px
+}
+
+.navbar-toggle{
+    background-color: black !important;
+}
+.navbar-toggle > .icon-bar{
+    
+    background-color:white !important;
+}
+.navbar-header > a{
+    color:#000 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+.navbar-header > img{
+    margin: 5px 5px;
+    float: left;
+    
+}
+
+
+.actives{
+    background-color: white;
+}
+.navbar-brand{
+    padding-top:5;
+}
+
+
+.Product-Updates{
+width:100%;
+min-height: 400px;
+height: auto;
+background-color: blanchedalmond;
+}
+.content-body{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    background-color: #fff
+}
+
+.container{
+    margin-top:100px;
+}
+
+.footer{
+    width: 100%;
+    min-height:200px;
+    height:auto;
+    background-color:black;
+    margin-top:10px;
+    border-top:3px solid white;
+    opacity: 0.6;
+}
+/*
+@media screen and (max-width: 768px){
+body{
+    background-color: #fff;
+}
+.Product-Updates{
+    background-color: rgb(197,107,107)
+}
+*/
+
+.dropdown-menu > li > a{
+  
+    color: white;
+}
+.dropdown-menu{
+    background-color: rgb(117 ,117, 117);
+}
+
+.dropdown-menu > li > a:hover{
+    color:bisque;
+    background-color:initial;
+}
+
+.New-user{    
+    color:white!important;
+    border: 2px solid red;
+    margin: 10px 0 10px 10px !important;
+padding:3px !important;
+background-color: red;
+font-weight: bold;
+width:80px;
+text-align: center;
+}
+.New-user:hover{
+    color:black !important;
+}
+.paid-ads{
+    margin-top:20px;
+    margin-bottom: 5px;
+    background-color: rgb(212, 139, 149);
+    height: 100px;
+    width:100%
+}
+
+.smartshop-ads{
+ margin:5px 5px 5px 0;
+ background-color: rgb(243, 183, 183);
+    width:24%;
+    height: 250px;
+    vertical-align: center;
+}
+
+.smartshop{
+    margin-top:10px !important;
+}
+
